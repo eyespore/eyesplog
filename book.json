@@ -63,11 +63,6 @@
 	    "anchor-navigation-ex": {
             "isShowTocTitleIcon": true
         }
-    },
-    "links" : {
-        "sidebar" : {
-            "Dockerhub" : "https://hub.docker.com",
-            "Github" : "https://github.com"
-        }
     }
+
 }
