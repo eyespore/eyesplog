@@ -1,0 +1,784 @@
+
+<!DOCTYPE HTML>
+<html lang="en-us" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Mybatis · Eyesplog</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="qqa">
+        
+        
+    
+    <link rel="stylesheet" href="../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="logback.html" />
+    
+    
+    <link rel="prev" href="apache_poi.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../../../../asset/img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../../../asset/img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../../../asset/img/favicon.ico'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../../../asset/img/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../asset/img/favicon.ico">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../../">
+            
+                <a href="../../../../">
+            
+                    
+                    站点介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    编程语言
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    第三方库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1.1" data-path="apache_poi.html">
+            
+                <a href="apache_poi.html">
+            
+                    
+                    Apache POI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.1.2" data-path="mybatis.html">
+            
+                <a href="mybatis.html">
+            
+                    
+                    Mybatis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.1.3" data-path="logback.html">
+            
+                <a href="logback.html">
+            
+                    
+                    Logback
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../../optional_system/">
+            
+                <a href="../../../optional_system/">
+            
+                    
+                    操作系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../../optional_system/vitualize/">
+            
+                <a href="../../../optional_system/vitualize/">
+            
+                    
+                    虚拟化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../../../optional_system/vitualize/docker/">
+            
+                <a href="../../../optional_system/vitualize/docker/">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1.1" data-path="../../../optional_system/vitualize/docker/docker_basic.html">
+            
+                <a href="../../../optional_system/vitualize/docker/docker_basic.html">
+            
+                    
+                    Docker基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.1.2" data-path="../../../optional_system/vitualize/docker/service_deploy/">
+            
+                <a href="../../../optional_system/vitualize/docker/service_deploy/">
+            
+                    
+                    服务部署
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1.2.1" data-path="../../../optional_system/vitualize/docker/service_deploy/docker_mysql.html">
+            
+                <a href="../../../optional_system/vitualize/docker/service_deploy/docker_mysql.html">
+            
+                    
+                    Mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../.." >Mybatis</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#mybatis"><b></b>Mybatis</a></li><ul><li><span class="title-icon "></span><a href="#&#x5FEB;&#x901F;&#x5F00;&#x59CB;"><b></b>&#x5FEB;&#x901F;&#x5F00;&#x59CB;</a></li><li><span class="title-icon "></span><a href="#crud"><b></b>CRUD</a></li><ul><li><span class="title-icon "></span><a href="#&#x7B80;&#x5355;sql"><b></b>&#x7B80;&#x5355;SQL</a></li><li><span class="title-icon "></span><a href="#&#x590D;&#x6742;sql"><b></b>&#x590D;&#x6742;SQL</a></li><li><span class="title-icon "></span><a href="#&#x6CE8;&#x610F;&#x4E8B;&#x9879;"><b></b>&#x6CE8;&#x610F;&#x4E8B;&#x9879;</a></li></ul><li><span class="title-icon "></span><a href="#&#x66F4;&#x6362;&#x6570;&#x636E;&#x6E90;"><b></b>&#x66F4;&#x6362;&#x6570;&#x636E;&#x6E90;</a></li><ul><li><span class="title-icon "></span><a href="#druid"><b></b>druid</a></li></ul></ul></ul></div><a href="#mybatis" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="mybatis"><a name="mybatis" class="anchor-navigation-ex-anchor" href="#mybatis"><i class="fa fa-link" aria-hidden="true"></i></a>Mybatis</h1>
+<p>&#x4E2D;&#x6587;&#x5B98;&#x65B9;&#x7F51;&#x7AD9;&#xFF1A;<a href="https://mybatis.net.cn/&#xFF0C;&#x70B9;&#x8BC4;&#x662F;&#x5341;&#x5206;&#x6613;&#x8BFB;&#x597D;&#x61C2;" target="_blank">https://mybatis.net.cn/&#xFF0C;&#x70B9;&#x8BC4;&#x662F;&#x5341;&#x5206;&#x6613;&#x8BFB;&#x597D;&#x61C2;</a></p>
+<h2 id="&#x5FEB;&#x901F;&#x5F00;&#x59CB;"><a name="&#x5FEB;&#x901F;&#x5F00;&#x59CB;" class="anchor-navigation-ex-anchor" href="#&#x5FEB;&#x901F;&#x5F00;&#x59CB;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5FEB;&#x901F;&#x5F00;&#x59CB;</h2>
+<p>MVC&#x6846;&#x67B6;&#x4E2D;&#x4F5C;&#x4E3A;&#x6301;&#x4E45;&#x5C42;&#x5B58;&#x5728;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5355;&#x72EC;&#x7528;&#x4E8E;&#x64CD;&#x4F5C;&#x6570;&#x636E;&#x5E93;&#xFF0C;&#x4E0E;&#x4F20;&#x7EDF;ORM&#x6301;&#x4E45;&#x5C42;&#x6846;&#x67B6;&#x4E0D;&#x540C;&#xFF0C;Mybatis&#x91C7;&#x7528;&#x57FA;&#x4E8E;Mapper&#x6620;&#x5C04;&#x5668;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x7B80;&#x5316;&#x5BF9;&#x6570;&#x636E;&#x5E93;&#x7684;CRUD&#x64CD;&#x4F5C;</p>
+<p>&#x5728;&#x9879;&#x76EE;&#x4E2D;&#x5F15;&#x5165;&#x4F9D;&#x8D56;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>  <span class="token comment">&lt;!-- &#x6301;&#x4E45;&#x5C42; --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.mybatis<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>mybatis<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>3.5.14<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>  <span class="token comment">&lt;!-- mysql&#x9A71;&#x52A8;&#xFF0C;&#x53D6;&#x51B3;&#x4E8E;&#x4F7F;&#x7528;&#x4EC0;&#x4E48;&#x6570;&#x636E;&#x5E93; --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>mysql<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>mysql-connector-java<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>8.0.30<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>  <span class="token comment">&lt;!-- &#x7B80;&#x5316;pojo&#x4E66;&#x5199; --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.projectlombok<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>lombok<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>1.18.26<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p><code>mybatis</code>&#x9700;&#x8981;&#x8FDB;&#x884C;&#x6B63;&#x786E;&#x7684;&#x914D;&#x7F6E;&#x624D;&#x80FD;&#x4F7F;&#x7528;&#xFF0C;&#x5176;&#x4E2D;&#x5305;&#x62EC;&#xFF1A;</p>
+<ul>
+<li>&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;&#x4FE1;&#x606F;</li>
+<li>&#x4E8B;&#x52A1;&#x7BA1;&#x7406;&#x5668;</li>
+<li>&#x6307;&#x5B9A;&#x5305;&#x626B;&#x63CF;&#xFF0C;&#x4ECE;&#x800C;&#x6784;&#x5EFA;mapper</li>
+<li>&#x8FD4;&#x56DE;&#x5BF9;&#x8C61;&#x7684;&#x522B;&#x540D;&#x7B49;&#x4FE1;&#x606F;</li>
+</ul>
+<p>&#x4E60;&#x60EF;&#x6027;&#x5730;&#xFF0C;&#x4E00;&#x822C;&#x76F4;&#x63A5;&#x5728;<code>resources</code>&#x76EE;&#x5F55;&#x4E0B;&#x521B;&#x5EFA;&#x4E00;&#x4EFD;&#x540D;&#x4E3A;<code>mybatis-config.xml</code>&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x548C;&#x4E00;&#x4EFD;&#x540D;&#x4E3A;<code>jdbc.properties</code>&#x7684;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;&#x4FE1;&#x606F;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</p>
+<blockquote>
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5C06;&#x8FDE;&#x63A5;&#x4FE1;&#x606F;&#x5199;&#x5728;<code>mybatis-config.xml</code>&#x5F53;&#x4E2D;&#xFF0C;&#x53EA;&#x662F;&#x8FD9;&#x79CD;&#x5206;&#x6587;&#x4EF6;&#x7684;&#x5199;&#x6CD5;&#x8981;&#x66F4;&#x7075;&#x6D3B;&#x4E00;&#x4E9B;</p>
+</blockquote>
+<p><code>mybatis-config-xml</code>&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token prolog">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;</span>
+<span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">configuration</span>
+        <span class="token name">PUBLIC</span> <span class="token string">&quot;-//mybatis.org//DTD Config 3.0//EN&quot;</span>
+        <span class="token string">&quot;http://mybatis.org/dtd/mybatis-3-config.dtd&quot;</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>configuration</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>properties</span> <span class="token attr-name">resource</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>jdbc.properties<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+    <span class="token comment">&lt;!-- &#x5B57;&#x6BB5;&#x5C0F;&#x9A7C;&#x5CF0;&#x8F6C;&#x4E0B;&#x5212;&#x7EBF;&#x652F;&#x6301; --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>settings</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>setting</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>mapUnderscoreToCamelCase<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>true<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>settings</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>typeAliases</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>package</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>club.pineclone.pojo<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>typeAliases</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>environments</span> <span class="token attr-name">default</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>development<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>environment</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>development<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>transactionManager</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>JDBC<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dataSource</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>POOLED<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>driver<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>${jdbc.driver}<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>url<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>${jdbc.url}<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>username<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>${jdbc.username}<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>password<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>${jdbc.password}<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dataSource</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>environment</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>environments</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mappers</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>package</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>club.pineclone.mapper<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mappers</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>configuration</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p><code>jdbc.properties</code>&#xFF1A;</p>
+<pre class="language-"><code class="lang-properties"><span class="token key attr-name">jdbc.url</span><span class="token punctuation">=</span><span class="token value attr-value">jdbc:mysql://localhost:3306/database1?useSSL=false</span>
+<span class="token key attr-name">jdbc.username</span><span class="token punctuation">=</span><span class="token value attr-value">root</span>
+<span class="token key attr-name">jdbc.password</span><span class="token punctuation">=</span><span class="token value attr-value">1234</span>
+<span class="token key attr-name">jdbc.driver</span><span class="token punctuation">=</span><span class="token value attr-value">com.mysql.cj.jdbc.Driver</span>
+</code></pre>
+<p>&#x7F16;&#x5199;pojo&#xFF1A;&#x4EE5;&#x4E0B;&#x4EC5;&#x4EC5;&#x4E3A;&#x793A;&#x4F8B;&#xFF0C;&#x6309;&#x7167;&#x9879;&#x76EE;&#x9700;&#x6C42;&#x7F16;&#x5199;&#x5373;&#x53EF;
+<code>club.pineclone.pojo.User.java</code></p>
+<pre class="language-"><code class="lang-java"><span class="token annotation punctuation">@Data</span>
+<span class="token annotation punctuation">@NoArgsConstructor</span>
+<span class="token annotation punctuation">@AllArgsConstructor</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
+    <span class="token keyword">private</span> <span class="token class-name">Integer</span> id<span class="token punctuation">;</span>
+    <span class="token keyword">private</span> <span class="token class-name">String</span> username<span class="token punctuation">;</span>
+    <span class="token keyword">private</span> <span class="token class-name">String</span> password<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>&#x7F16;&#x5199;mapper&#x6620;&#x5C04;&#x5668;&#xFF1A;sql&#x53EF;&#x4EE5;&#x662F;<strong>&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5F62;&#x5F0F;</strong>&#x3001;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;<strong>&#x6CE8;&#x89E3;&#x5F62;&#x5F0F;</strong>&#xFF0C;&#x901A;&#x5E38;&#x524D;&#x8005;&#x7528;&#x4E8E;&#x590D;&#x6742;&#x573A;&#x666F;&#xFF0C;&#x540E;&#x8005;&#x7528;&#x4E8E;&#x7B80;&#x5355;&#x573A;&#x666F;&#xFF1A;</p>
+<p>&#x914D;&#x7F6E;&#x5F62;&#x5F0F;&#xFF1A;</p>
+<p><code>club.pineclone.mapper.UserMapper.java</code>&#xFF1A;</p>
+<pre class="language-"><code class="lang-java"><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">UserMapper</span> <span class="token punctuation">{</span>
+    <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">User</span><span class="token punctuation">&gt;</span></span> <span class="token function">selectAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><code>club/pineclone/mapper/UserMapper.xml</code>
+&#xFF08;&#x6CE8;&#xFF1A;mapper&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x9700;&#x8981;&#x548C;&#x7C7B;&#x6709;&#x540C;&#x6837;&#x7684;&#x5C42;&#x7EA7;&#x7ED3;&#x6784;&#x624D;&#x80FD;&#x6784;&#x6210;&#x6620;&#x5C04;&#x5173;&#x7CFB;&#xFF09;</p>
+<pre class="language-"><code class="lang-xml"><span class="token prolog">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;</span>
+<span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">mapper</span>
+        <span class="token name">PUBLIC</span> <span class="token string">&quot;-//mybatis.org//DTD Mapper 3.0//EN&quot;</span>
+        <span class="token string">&quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot;</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mapper</span> <span class="token attr-name">namespace</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>club.pineclone.mapper.UserMapper<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>selectAll<span class="token punctuation">&quot;</span></span> <span class="token attr-name">resultType</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>User<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        select * from user
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>mapper</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>&#x6CE8;&#x89E3;&#x5F62;&#x5F0F;&#xFF1A;</p>
+<pre class="language-"><code class="lang-java"><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">UserMapper</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Select</span><span class="token punctuation">(</span><span class="token string">&quot;select * from user&quot;</span><span class="token punctuation">)</span>
+    <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">User</span><span class="token punctuation">&gt;</span></span> <span class="token function">selectAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>mybaits&#x7684;&#x6838;&#x5FC3;&#x5728;&#x4E8E;<code>SqlSessionFactory</code>&#x63D0;&#x4F9B;&#x7684;API&#xFF0C;&#x56E0;&#x6B64;&#x9996;&#x5148;&#x9700;&#x8981;&#x6784;&#x5EFA;<code>SqlSessionFactory</code>&#xFF1A;</p>
+<pre class="language-"><code class="lang-java"><span class="token class-name">String</span> resource <span class="token operator">=</span> <span class="token string">&quot;mybatis-config.xml&quot;</span><span class="token punctuation">;</span>
+<span class="token class-name">InputStream</span> inputStream <span class="token operator">=</span> <span class="token class-name">Resources</span><span class="token punctuation">.</span><span class="token function">getResourceAsStream</span><span class="token punctuation">(</span>resource<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">SqlSessionFactory</span> sqlSessionFactory <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SqlSessionFactoryBuilder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">build</span><span class="token punctuation">(</span>inputStream<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>&#x901A;&#x8FC7;<code>sqlSessionFactory</code>&#x83B7;&#x5F97;mapper&#x5BF9;&#x8C61;&#x6765;&#x6267;&#x884C;&#x65B9;&#x6CD5;&#x64CD;&#x4F5C;&#x6570;&#x636E;&#x5E93;</p>
+<pre class="language-"><code class="lang-java"><span class="token class-name">SqlSession</span> session <span class="token operator">=</span> sqlSessionFactory<span class="token punctuation">.</span><span class="token function">openSession</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">UserMapper</span> mapper <span class="token operator">=</span> session<span class="token punctuation">.</span><span class="token function">getMapper</span><span class="token punctuation">(</span><span class="token class-name">UserMapper</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>mapper<span class="token punctuation">.</span><span class="token function">selectAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+session<span class="token punctuation">.</span><span class="token function">commit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// &#x9ED8;&#x8BA4;&#x5F00;&#x542F;&#x4E8B;&#x52A1;</span>
+session<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// &#x5173;&#x95ED;&#x8D44;&#x6E90;</span>
+</code></pre>
+<h2 id="crud"><a name="crud" class="anchor-navigation-ex-anchor" href="#crud"><i class="fa fa-link" aria-hidden="true"></i></a>CRUD</h2>
+<h3 id="&#x7B80;&#x5355;sql"><a name="&#x7B80;&#x5355;sql" class="anchor-navigation-ex-anchor" href="#&#x7B80;&#x5355;sql"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7B80;&#x5355;SQL</h3>
+<p>&#x7B80;&#x5355;SQL&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x6CE8;&#x89E3;&#x5F62;&#x5F0F;&#x4E66;&#x5199;&#xFF1A;</p>
+<pre class="language-"><code class="lang-java"><span class="token annotation punctuation">@Insert</span><span class="token punctuation">(</span><span class="token string">&quot;insert into users(name, age) VALUES (#{user.name}, #{user.age}&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">int</span> <span class="token function">insertUser</span><span class="token punctuation">(</span><span class="token class-name">Users</span> user<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token annotation punctuation">@Delete</span><span class="token punctuation">(</span><span class="token string">&quot;delete from users where id = #{id}&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">int</span> <span class="token function">deleteById</span><span class="token punctuation">(</span><span class="token class-name">Long</span> id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token annotation punctuation">@Select</span><span class="token punctuation">(</span><span class="token string">&quot;select name, age from users where id = #{id}&quot;</span><span class="token punctuation">)</span>
+<span class="token class-name">User</span> <span class="token function">selectById</span><span class="token punctuation">(</span><span class="token class-name">Long</span> id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token annotation punctuation">@Update</span><span class="token punctuation">(</span><span class="token string">&quot;update users set name = #{name} where id = #{id}&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">int</span> <span class="token function">updateById</span><span class="token punctuation">(</span><span class="token class-name">User</span> user<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="&#x590D;&#x6742;sql"><a name="&#x590D;&#x6742;sql" class="anchor-navigation-ex-anchor" href="#&#x590D;&#x6742;sql"><i class="fa fa-link" aria-hidden="true"></i></a>&#x590D;&#x6742;SQL</h3>
+<p>&#x590D;&#x6742;SQL&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;<code>mapper.xml</code>&#x7684;&#x5F62;&#x5F0F;&#x8FDB;&#x884C;&#x914D;&#x7F6E;&#xFF0C;&#x5408;&#x7406;&#x5229;&#x7528;MyBatis&#x63D0;&#x4F9B;&#x7684;&#x52A8;&#x6001; SQL&#xFF08;Dynamic SQL&#xFF09;&#x6765;&#x7F16;&#x5199;&#x590D;&#x6742;&#x7684;SQL&#x6307;&#x4EE4;</p>
+<p><strong>&#x63D2;&#x5165;</strong></p>
+<p>&#x6279;&#x91CF;&#x63D2;&#x5165;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>insert</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>insertBatch<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    insert into dish_flavor(dish_id, name, value)
+    values
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>foreach</span> <span class="token attr-name">collection</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>dishFlavors<span class="token punctuation">&quot;</span></span> <span class="token attr-name">item</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>flavor<span class="token punctuation">&quot;</span></span> <span class="token attr-name">separator</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>,<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        (#{flavor.dishId}, #{flavor.name}, #{flavor.value})
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>foreach</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>insert</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>&#x63D2;&#x5165;&#x540E;&#x8FD4;&#x56DE;&#x4E3B;&#x952E;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>insert</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>insert<span class="token punctuation">&quot;</span></span> <span class="token attr-name">useGeneratedKeys</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>true<span class="token punctuation">&quot;</span></span> <span class="token attr-name">keyProperty</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    insert into users (name, age)
+    values (#{name}, #{age})
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>insert</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<hr>
+<p><strong>&#x5220;&#x9664;</strong></p>
+<p>&#x6279;&#x91CF;&#x5220;&#x9664;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>delete</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>deleteBatchByDishIds<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    delete
+    from dish_flavor
+    where dish_id in
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>foreach</span> <span class="token attr-name">collection</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>dishIds<span class="token punctuation">&quot;</span></span> <span class="token attr-name">item</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>dishId<span class="token punctuation">&quot;</span></span> <span class="token attr-name">open</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>(<span class="token punctuation">&quot;</span></span> <span class="token attr-name">close</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>)<span class="token punctuation">&quot;</span></span> <span class="token attr-name">separator</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>,<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        #{dishId}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>foreach</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>delete</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<hr>
+<p><strong>&#x4FEE;&#x6539;</strong></p>
+<p>&#x6761;&#x4EF6;&#x63D2;&#x5165;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>update</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>update<span class="token punctuation">&quot;</span></span> <span class="token attr-name">parameterType</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>Category<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    update category
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>set</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>type != null<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>type = #{type},<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>name != null<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>name = #{name},<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>sort != null<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>sort = #{sort},<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>status != null<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>status = #{status},<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>updateTime != null<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>update_time = #{updateTime},<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>updateUser != null<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>update_user = #{updateUser}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>set</span><span class="token punctuation">&gt;</span></span>
+    where id = #{id}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>update</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<blockquote>
+<p>&#x4EC5;&#x4EC5;&#x5728;&#x503C;&#x5B58;&#x5728;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x6267;&#x884C;&#x66F4;&#x65B0;&#x64CD;&#x4F5C;</p>
+</blockquote>
+<hr>
+<p><strong>&#x67E5;&#x8BE2;</strong></p>
+<p>&#x6761;&#x4EF6;&#x67E5;&#x8BE2;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>pageQuery<span class="token punctuation">&quot;</span></span> <span class="token attr-name">resultType</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>com.sky.entity.Category<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    select * from category
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>where</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>name != null and name != &apos;&apos;<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>and name like concat(&apos;%&apos;,#{name},&apos;%&apos;)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>type != null<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>and type = #{type}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>where</span><span class="token punctuation">&gt;</span></span>
+    order by sort asc , create_time desc
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<blockquote>
+<p>&#x6309;&#x7167;<code>sort</code>&#x5217;&#x8FDB;&#x884C;&#x5347;&#x5E8F;&#x6392;&#x5217;&#xFF0C;&#x82E5;<code>sort</code>&#x5B57;&#x6BB5;&#x503C;&#x76F8;&#x540C;&#xFF0C;&#x5219;&#x6309;<code>create_time</code>&#x7684;&#x503C;&#x964D;&#x5E8F;&#x6392;&#x5217;</p>
+</blockquote>
+<p>&#x8FDE;&#x63A5;&#x67E5;&#x8BE2;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>queryPage<span class="token punctuation">&quot;</span></span> <span class="token attr-name">resultType</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>com.sky.vo.DishVO<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    select d.*, c.`name` as `categoryName`
+    from dish d
+    left join category c on d.category_id = c.id
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>where</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>name != null and name != &apos;&apos;<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            and d.name like concat(&apos;%&apos;, #{name} ,&apos;%&apos;)
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>categoryId != null and categoryId != &apos;&apos;<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            and d.category_id = #{categoryId}
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>if</span> <span class="token attr-name">test</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>status != null<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                and d.status = #{status}
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>if</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>where</span><span class="token punctuation">&gt;</span></span>
+    order by d.create_time desc
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<h3 id="&#x6CE8;&#x610F;&#x4E8B;&#x9879;"><a name="&#x6CE8;&#x610F;&#x4E8B;&#x9879;" class="anchor-navigation-ex-anchor" href="#&#x6CE8;&#x610F;&#x4E8B;&#x9879;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6CE8;&#x610F;&#x4E8B;&#x9879;</h3>
+<ol>
+<li><p>&#x5173;&#x4E8E;<code>#{}</code>&#x548C;<code>${}</code>&#x5360;&#x4F4D;&#x7B26;</p>
+<p><strong><code>${}</code></strong>&#xFF1A;&#x7528;&#x4E8E;&#x76F4;&#x63A5;&#x6587;&#x672C;&#x66FF;&#x6362;&#xFF0C;&#x4E0D;&#x4F1A;&#x8FDB;&#x884C;&#x53C2;&#x6570;&#x7684;&#x8F6C;&#x4E49;&#x6216;&#x7C7B;&#x578B;&#x68C0;&#x67E5;&#xFF0C;&#x5B58;&#x5728; SQL &#x6CE8;&#x5165;&#x98CE;&#x9669;&#xFF0C;&#x9002;&#x7528;&#x4E8E;&#x52A8;&#x6001; SQL &#x6784;&#x5EFA;&#x573A;&#x666F;&#xFF0C;&#x5982;&#x8868;&#x540D;&#x6216;&#x5217;&#x540D;&#x7684;&#x52A8;&#x6001;&#x8BBE;&#x7F6E;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre class="language-"><code class="lang-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> ${tableName} <span class="token keyword">WHERE</span> ${columnName} <span class="token operator">=</span> <span class="token string">&apos;some_value&apos;</span><span class="token punctuation">;</span>
+</code></pre>
+<hr>
+<p><strong><code>#{}</code></strong>&#xFF1A;&#x7528;&#x4E8E;&#x5B89;&#x5168;&#x5730;&#x4F20;&#x9012;&#x53C2;&#x6570;&#xFF0C;MyBatis &#x4F1A;&#x5BF9;&#x53C2;&#x6570;&#x8FDB;&#x884C;&#x9884;&#x7F16;&#x8BD1;&#x5904;&#x7406;&#xFF0C;&#x907F;&#x514D; SQL &#x6CE8;&#x5165;&#xFF0C;&#x9002;&#x7528;&#x4E8E;&#x5927;&#x591A;&#x6570;&#x4F20;&#x9012;&#x53C2;&#x6570;&#x7684;&#x573A;&#x666F;&#xFF0C;&#x5982;&#x67E5;&#x8BE2;&#x6761;&#x4EF6;&#x6216;&#x63D2;&#x5165;&#x6570;&#x636E;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre class="language-"><code class="lang-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">WHERE</span> username <span class="token operator">=</span> <span class="token comment">#{username};</span>
+</code></pre>
+</li>
+</ol>
+<h2 id="&#x66F4;&#x6362;&#x6570;&#x636E;&#x6E90;"><a name="&#x66F4;&#x6362;&#x6570;&#x636E;&#x6E90;" class="anchor-navigation-ex-anchor" href="#&#x66F4;&#x6362;&#x6570;&#x636E;&#x6E90;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x66F4;&#x6362;&#x6570;&#x636E;&#x6E90;</h2>
+<p>&#x4F5C;&#x4E3A;ORM&#x6846;&#x67B6;&#xFF0C;mybatis&#x901A;&#x8FC7;&#x4E0E;&#x6570;&#x636E;&#x5E93;&#x5EFA;&#x7ACB;&#x8FDE;&#x63A5;&#x6765;&#x5DE5;&#x4F5C;&#xFF0C;&#x901A;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5F53;<code>dataSource</code>&#x6807;&#x7B7E;&#x7684;type&#x5C5E;&#x6027;&#x503C;&#x4E3A;<code>POOLED</code>&#x65F6;&#xFF0C;mybatis&#x4F7F;&#x7528;&#x5176;<strong>&#x5185;&#x7F6E;</strong>&#x7684;&#x8FDE;&#x63A5;&#x6C60;&#x6765;&#x7BA1;&#x7406;&#x8FDE;&#x63A5;</p>
+<p>&#x5728;&#x5B9E;&#x9645;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x503E;&#x5411;&#x4E8E;&#x9009;&#x62E9;&#x63D0;&#x4F9B;&#x4E86;&#x66F4;&#x597D;&#x7684;&#x6027;&#x80FD;&#x4F18;&#x5316;&#x3001;&#x76D1;&#x63A7;&#x7BA1;&#x7406;&#x80FD;&#x529B;&#x3001;&#x591A;&#x6570;&#x636E;&#x5E93;&#x652F;&#x6301;&#x7684;&#x6570;&#x636E;&#x6E90;&#xFF0C;&#x800C;mybaits&#x5185;&#x7F6E;&#x7684;&#x6570;&#x636E;&#x6E90;&#x5F80;&#x5F80;&#x4E0D;&#x80FD;&#x6EE1;&#x8DB3;&#x9700;&#x6C42;&#xFF0C;&#x6B64;&#x65F6;&#x9700;&#x8981;&#x66F4;&#x6362;&#x4E3A;&#x7B2C;&#x4E09;&#x65B9;&#x6570;&#x636E;&#x6E90;&#xFF0C;&#x5E38;&#x7528;&#x7B2C;&#x4E09;&#x65B9;&#x6570;&#x636E;&#x6E90;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li>DBCP</li>
+<li>C3P0</li>
+<li><strong>Druid</strong>&#xFF1A;&#x6027;&#x80FD;&#x4E5F;&#x6BD4;&#x8F83;&#x597D;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x6BD4;&#x8F83;&#x4FBF;&#x6377;&#x7684;&#x76D1;&#x63A7;&#x7CFB;&#x7EDF;</li>
+<li>Hikari&#xFF1A;&#x6027;&#x80FD;&#x6700;&#x597D;</li>
+</ul>
+<h3 id="druid"><a name="druid" class="anchor-navigation-ex-anchor" href="#druid"><i class="fa fa-link" aria-hidden="true"></i></a>druid</h3>
+<p>&#x5C06;mybaits&#x6570;&#x636E;&#x6E90;&#x5207;&#x6362;&#x4E3A;druid&#xFF0C;&#x4E3A;&#x9879;&#x76EE;&#x5F15;&#x5165;druid&#x4F9D;&#x8D56;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.alibaba<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>druid<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>1.2.1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>&#x53C2;&#x8003;mybaits&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x5BF9;<code>datasource</code>&#x7684;&#x914D;&#x7F6E;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dataSource</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>POOLED<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>driver<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>${jdbc.driver}<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>url<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>${jdbc.url}<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>username<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>${jdbc.username}<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>password<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>${jdbc.password}<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dataSource</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x901A;&#x8FC7;<code>type</code>&#x6765;&#x6307;&#x5B9A;&#x7C7B;&#x540D;&#xFF0C;&#x4F46;&#x662F;&#x7531;&#x4E8E;mybatis&#x8981;&#x6C42;&#x8FD9;&#x91CC;&#x5FC5;&#x987B;&#x662F;<code>DataSourceFacotry</code>&#x7684;&#x5B9E;&#x73B0;&#x7C7B;&#xFF0C;&#x56E0;&#x6B64;&#x8FD9;&#x91CC;&#x4E0D;&#x80FD;&#x76F4;&#x63A5;&#x6307;&#x5B9A;<code>com.alibaba.pool.DruidDataSource</code></p>
+<p>&#x53EF;&#x4EE5;&#x624B;&#x52A8;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5B9E;&#x73B0;&#x7C7B;&#xFF0C;&#x8BA9;&#x5B83;&#x8FD4;&#x56DE;<code>DruidDataSource</code>&#x5373;&#x53EF;&#xFF1A;</p>
+<pre class="language-"><code class="lang-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">DruidDataSourceFactory</span> <span class="token keyword">implements</span> <span class="token class-name">DataSourceFactory</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setProperties</span><span class="token punctuation">(</span><span class="token class-name">Properties</span> props<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token class-name">DataSource</span> <span class="token function">getDataSource</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">DruidDataSource</span> dataSource <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">DruidDataSource</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        dataSource<span class="token punctuation">.</span><span class="token function">setUrl</span><span class="token punctuation">(</span><span class="token string">&quot;jdbc:mysql://127.0.0.1:3306/pineclone?useSSL=false&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        dataSource<span class="token punctuation">.</span><span class="token function">setUsername</span><span class="token punctuation">(</span><span class="token string">&quot;root&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        dataSource<span class="token punctuation">.</span><span class="token function">setPassword</span><span class="token punctuation">(</span><span class="token string">&quot;1234&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        dataSource<span class="token punctuation">.</span><span class="token function">setDriverClassName</span><span class="token punctuation">(</span><span class="token string">&quot;com.mysql.jdbc.Driver&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> dataSource<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>&#x5F53;&#x7136;&#xFF0C;&#x548C;&#x6570;&#x636E;&#x6E90;&#x76F8;&#x5173;&#x7684;&#x914D;&#x7F6E;&#x4E5F;&#x53EF;&#x4EE5;&#x4E00;&#x5E76;&#x5728;&#x6B64;&#x5904;&#x914D;&#x7F6E;&#x597D;&#xFF0C;&#x5927;&#x53EF;&#x4EE5;&#x5C06;<code>mybatis-config.xml</code>&#x5F53;&#x4E2D;&#x7684;&#x914D;&#x7F6E;&#x7ED9;&#x6CE8;&#x91CA;&#x6389;&#xFF1A;</p>
+<pre class="language-"><code class="lang-xml">            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dataSource</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>club.pineclone.utils.DruidDataSourceFactory<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!--                &lt;property name=&quot;driver&quot; value=&quot;${jdbc.driver}&quot;/&gt;--&gt;</span>
+<span class="token comment">&lt;!--                &lt;property name=&quot;url&quot; value=&quot;${jdbc.url}&quot;/&gt;--&gt;</span>
+<span class="token comment">&lt;!--                &lt;property name=&quot;username&quot; value=&quot;${jdbc.username}&quot;/&gt;--&gt;</span>
+<span class="token comment">&lt;!--                &lt;property name=&quot;password&quot; value=&quot;${jdbc.password}&quot;/&gt;--&gt;</span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dataSource</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<blockquote>
+<p>&#x4E0D;&#x8FC7;&#x4F7F;&#x7528;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x624B;&#x6CD5;&#x6765;&#x914D;&#x7F6E;DruidDataSource&#x662F;&#x81EA;&#x7531;&#x7684;&#xFF0C;&#x5E76;&#x4E0D;&#x62D8;&#x6CE5;&#x4E8E;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#xFF0C;&#x60A8;&#x4E5F;&#x8BB8;&#x6CE8;&#x610F;&#x5230;&#x4E86;&#x4E0A;&#x9762;<code>DataSourceFactory</code>&#x63A5;&#x53E3;&#x7684;<code>setProperties</code>&#x65B9;&#x6CD5;&#xFF0C;&#x5B83;&#x540C;&#x6837;&#x80FD;&#x7528;&#x4E8E;&#x914D;&#x7F6E;&#x53C2;&#x6570; </p>
+</blockquote>
+<footer class="page-footer"><span class="copyright">edit by qqa</span><span class="footer-modification">Last edited on:
+2024-09-07 13:24:57
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="apache_poi.html" class="navigation navigation-prev " aria-label="Previous page: Apache POI">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="logback.html" class="navigation navigation-next " aria-label="Next page: Logback">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Mybatis","level":"1.2.1.1.2","depth":4,"next":{"title":"Logback","level":"1.2.1.1.3","depth":4,"path":"note/program_language/java/third_party_lib/logback.md","ref":"./note/program_language/java/third_party_lib/logback.md","articles":[]},"previous":{"title":"Apache POI","level":"1.2.1.1.1","depth":4,"path":"note/program_language/java/third_party_lib/apache_poi.md","ref":"./note/program_language/java/third_party_lib/apache_poi.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","back-to-top-button","chapter-fold","expandable-chapters-small","splitter","github","edit-link","favicon","code","prism","-highlight","ancre-navigation","tbfed-pagefooter","advanced-emoji","hide-element"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"","modify_label":"Last edited on:","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"github":{"url":"https://github.com/eyespore"},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"isShowTocTitleIcon":true},"favicon":{"shortcut":"asset/img/favicon.ico","bookmark":"asset/img/favicon.ico","appleTouch":"asset/img/favicon.ico","appleTouchMore":{"120x120":"asset/img/favicon.ico","180x180":"asset/img/favicon.ico"}},"back-to-top-button":{},"ancre-navigation":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"expandable-chapters-small":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"edit this page","base":"//github.com/eyespore/book/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"qqa","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Eyesplog","language":"en-us","gitbook":"*","description":"我是描述"},"file":{"path":"note/program_language/java/third_party_lib/mybatis.md","mtime":"2024-09-07T05:24:57.969Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-09-07T05:26:05.974Z"},"basePath":"../../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
